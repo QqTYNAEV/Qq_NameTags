@@ -1,0 +1,26 @@
+
+# {name} - Ник игрока
+# {clan} - Клан игрока (должен быть включен в settings.yml)
+# {ping} - Пинг игрока
+# {hp} - Ник игрока
+# {os} - OS игрока
+# {device} - Модель устройства игрока
+# {gm} - Режим игры игрока (показывается только в цифрах)
+# {item} - Айди предмета в руке игрока
+
+# {msg} - Сообщение игрока (только для пунка chat)
+
+Player:
+  display: "Player {name}"
+  tag: "Player {name}"
+  chat: "Player {name} > {msg}"
+
+Vip:
+  display: "Vip {name}"
+  tag: "Vip {name}"
+  chat: "Vip {name} > {msg}"
+
+Operator:
+  display: "OP {name}"
+  tag: "OP {name}"
+  chat: "OP {name} > {msg}"
